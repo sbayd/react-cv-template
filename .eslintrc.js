@@ -28,6 +28,7 @@ module.exports = {
     'no-useless-return': 0,
     'no-restricted-syntax': 0,
     'import/no-named-default': 0,
-    'default-case': 0
+    'default-case': 0,
+    'max-len': 0
   }
 };
