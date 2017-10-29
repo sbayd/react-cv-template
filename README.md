@@ -1,7 +1,7 @@
 A React CV Template APP with six different color schemes, just clone the repository and edit data.js
 
 Sample Page
-http://sbaydin.com(http://sbaydin.com/)
+[http://sbaydin.com](http://sbaydin.com/)
 
 ##Credits
 - [React](https://facebook.github.io/react/)
