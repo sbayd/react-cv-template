@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
 export default class ContactDetails extends Component {
-
   renderListItem(className, data, iconName, type) {
     if (!data) { return null; }
     let href = data;

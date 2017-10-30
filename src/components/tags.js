@@ -3,9 +3,9 @@ import PropTypes from 'prop-types';
 import Section from './shared/section';
 
 export default class Tags extends Component {
-  renderListItem(item) {
+  renderListItem(item, i) {
     return (
-      <li className="item">
+      <li className="item" key={`tag_item_${i}`}>
         {item}
       </li>
     );
@@ -20,8 +20,8 @@ export default class Tags extends Component {
       >
         <div className="skills">
           <ul className="skillset">
-            {list.map((item) => {
-              return this.renderListItem(item);
+            {list.map((item, i) => {
+              return this.renderListItem(item, i);
             })}
           </ul>
         </div>
@@ -33,6 +33,6 @@ export default class Tags extends Component {
 Tags.propTypes = {
   list: PropTypes.arrayOf(PropTypes.string).isRequired,
   sectionTitle: PropTypes.string.isRequired,
-  icon: PropTypes.string.isRequired
+  icon: PropTypes.string
 };
 

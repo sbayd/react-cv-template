@@ -3,9 +3,9 @@ import PropTypes from 'prop-types';
 import Section from './shared/section';
 
 export default class Projects extends Component {
-  renderListItem(item) {
+  renderListItem(item, i) {
     return (
-      <div className="item">
+      <div className="item" key={`project_item_${i}`}>
         {this.renderProjectTitle(item)}
          -
         <span
@@ -36,7 +36,7 @@ export default class Projects extends Component {
         <h5>{category.name}</h5>
         <hr />
         {
-          category.list.map(item => this.renderListItem(item))
+          category.list.map((item, i) => this.renderListItem(item, i))
         }
       </div>
     );
@@ -48,7 +48,6 @@ export default class Projects extends Component {
       categories,
       description
     } = this.props;
-    console.log('th', this.props);
     return (
       <Section
         className="projects-section"
@@ -69,13 +68,9 @@ export default class Projects extends Component {
 }
 
 Projects.propTypes = {
-  categories: PropTypes.arrayOf(PropTypes.shape({
-    name: PropTypes.string.isRequired,
-    school: PropTypes.string.isRequired,
-    year: PropTypes.string.isRequired
-  })).isRequired,
+  categories: PropTypes.arrayOf(PropTypes.shape()).isRequired,
   description: PropTypes.string.isRequired,
   sectionTitle: PropTypes.string.isRequired,
-  icon: PropTypes.string.isRequired
+  icon: PropTypes.string
 };
 

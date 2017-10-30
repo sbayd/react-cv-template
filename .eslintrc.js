@@ -8,7 +8,6 @@ module.exports = {
   'rules': {
     'react/prefer-stateless-function': 0,
     'react/jsx-filename-extension': [1, { 'extensions': ['.js', '.jsx'] }],
-    'react/jsx-boolean-value': 0,
     'react/no-danger': 0,
     'jsx-a11y/img-has-alt': 0,
     'jsx-a11y/label-has-for': 0,
@@ -27,8 +26,9 @@ module.exports = {
     'operator-assignment': 0,
     'no-useless-return': 0,
     'no-restricted-syntax': 0,
-    'import/no-named-default': 0,
+    'import/no-named-as-default': 0,
     'default-case': 0,
-    'max-len': 0
+    'max-len': 0,
+    'react/require-default-props': 0
   }
 };

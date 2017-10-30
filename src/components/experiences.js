@@ -3,9 +3,9 @@ import PropTypes from 'prop-types';
 import Section from './shared/section';
 
 export default class Experiences extends Component {
-  renderListItem(item) {
+  renderListItem(item, i) {
     return (
-      <div className="item">
+      <div className="item" key={`exp_item_${i}`}>
         <div className="meta">
           <div className="upper-row">
             <h3 className="job-title">{item.title}</h3>
@@ -13,7 +13,9 @@ export default class Experiences extends Component {
           </div>
           {this.renderCompanySection(item.company, item.companyLink, item.companyShortDetail)}
         </div>
-        <div className="details" dangerouslySetInnerHTML={{ __html: item.description }} />
+        <div className="details">
+          <p dangerouslySetInnerHTML={{ __html: item.description }} />
+        </div>
       </div>
     );
   }
@@ -31,8 +33,8 @@ export default class Experiences extends Component {
         icon={icon || 'briefcase'}
         title={sectionTitle || 'Experiences'}
       >
-        {list.map((item) => {
-          return this.renderListItem(item);
+        {list.map((item, i) => {
+          return this.renderListItem(item, i);
         })}
       </Section>
     );
@@ -40,12 +42,8 @@ export default class Experiences extends Component {
 }
 
 Experiences.propTypes = {
-  list: PropTypes.arrayOf(PropTypes.shape({
-    name: PropTypes.string.isRequired,
-    school: PropTypes.string.isRequired,
-    year: PropTypes.string.isRequired
-  })).isRequired,
+  list: PropTypes.arrayOf(PropTypes.shape()).isRequired,
   sectionTitle: PropTypes.string.isRequired,
-  icon: PropTypes.string.isRequired
+  icon: PropTypes.string
 };
 
