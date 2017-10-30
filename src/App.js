@@ -6,12 +6,25 @@ import './assets/theme/styles.css';
 import Section from './components/shared/section';
 import Sidebar from './components/sidebar';
 import Experiences from './components/experiences';
-
+import Projects from './components/projects';
+import Tags from './components/tags';
 
 export default class CV extends Component {
   renderExperiencesSection() {
     if (this.props.experiences) {
       return (<Experiences {...this.props.experiences} />);
+    }
+    return null;
+  }
+  renderProjectsSection() {
+    if (this.props.projects) {
+      return (<Projects {...this.props.projects} />);
+    }
+    return null;
+  }
+  renderTags() {
+    if (this.props.tags) {
+      return (<Tags {...this.props.tags} />);
     }
     return null;
   }
@@ -38,6 +51,8 @@ export default class CV extends Component {
         <div className="main-wrapper">
           {this.renderCareerProfile()}
           {this.renderExperiencesSection()}
+          {this.renderProjectsSection()}
+          {this.renderTags()}
         </div>
       </div>
     );
@@ -47,5 +62,7 @@ export default class CV extends Component {
 CV.propTypes = {
   profile: PropTypes.shape().isRequired,
   careerProfile: PropTypes.shape().isRequired,
-  experiences: PropTypes.shape().isRequired
+  experiences: PropTypes.shape().isRequired,
+  projects: PropTypes.shape().isRequired,
+  tags: PropTypes.shape().isRequired
 };
