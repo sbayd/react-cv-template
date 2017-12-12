@@ -32,6 +32,7 @@ export default class Experiences extends Component {
         className="experieces-section"
         icon={icon || 'briefcase'}
         title={sectionTitle || 'Experiences'}
+        id="experiences"
       >
         {list.map((item, i) => {
           return this.renderListItem(item, i);

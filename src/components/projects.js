@@ -52,6 +52,7 @@ export default class Projects extends Component {
       <Section
         className="projects-section"
         icon={icon || 'archive'}
+        id="projects"
         title={sectionTitle || 'Projects'}
       >
         { this.renderIntro(description) }

@@ -16,6 +16,7 @@ export default class Tags extends Component {
       <Section
         className="tags-section"
         icon={icon || 'rocket'}
+        id="tags"
         title={sectionTitle || 'Skills & Proficiency'}
       >
         <div className="skills">
