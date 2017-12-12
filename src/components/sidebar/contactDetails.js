@@ -16,7 +16,7 @@ export default class ContactDetails extends Component {
     return (
       <li className={className}>
         <i className={`fa ${iconName}`} />
-        <a href={href}> {data} </a>
+        <a href={`//${href}`} target="_blank"> {data} </a>
       </li>
     );
   }
