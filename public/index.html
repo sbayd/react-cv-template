@@ -42,6 +42,14 @@
       You need to enable JavaScript to run this app.
     </noscript>
     <div id="root"></div>
-
+    <script src="https://www.jotform.com/cardforms/feedbackEmbedButton.min.js"></script>
+    <script type="text/javascript">
+      if (typeof window.JF_FeedbackEmbedButton === 'function') {
+        window.initializedFeedbackButton = new window.JF_FeedbackEmbedButton({
+          buttonText: 'Contact',
+          formId: 80095810204953
+        });
+      }
+     </script>
   </body>
 </html>
