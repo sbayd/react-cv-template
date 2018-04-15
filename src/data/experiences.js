@@ -6,7 +6,7 @@ export const experiences = {
     {
       title: 'Lead Software Developer',
       company: 'JotForm',
-      description: 'I\'m working as a lead developer at JotForm Source team. We are creating some amazing features for JotForm!',
+      description: 'I\'m working as a lead developer at JotForm Source team. We are creating some amazing features for JotForm using latest technologies like React / Redux, React Native etc.',
       companyLink: 'http://jotform.com',
       companyShortDetail: '',
       date: '2017.10 - Present'
