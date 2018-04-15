@@ -1,7 +1,7 @@
 export const tags = {
   sectionTitle: '',
   icon: null,
-  list: ['Javascript', 'ReactJS', 'ReactNative', 'Redux', 'C#', 'ASP.NETMVC', 'PHP', 'SOLID PRINCIPLES', 'C++', 'OPENCV', 'XAMARIN', 'ANDROID SDK', 'LARAVEL', 'SQL SERVER', 'MYSQL', 'SQLITE', 'LINQ', 'N-TIER ARCHITECTURE', 'SOA ARCHITECTURE']
+  list: ['Javascript', 'ReactJS', 'React-Native', 'Redux', 'C#', 'ASP.NET MVC', 'PHP', 'SOLID PRINCIPLES', 'XAMARIN', 'ANDROID SDK', 'SQL SERVER', 'MYSQL', 'SQLITE', 'LINQ', 'SQL', 'SOA']
 };
 
 export default tags;
