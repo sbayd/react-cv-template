@@ -56,11 +56,6 @@ export const projects = {
         description: 'Central Bank of the Republic of Turkey (TCMB) Mobile Archive Management System ( Android SDK / Xamarin / Urovo SDK)'
       },
       {
-        url: 'http:////yee.org.tr',
-        title: 'YEE Z-BOOK',
-        description: 'Yunus Emre Institute Z-Book Education Platform (C#/ MongoDB/ SQLite, Web Services)'
-      },
-      {
         url: 'http:////evdekiogretmen.bilfen.com',
         title: 'Evdeki Ögretmen(Teacher at Home)',
         description: 'Bilfen Evdeki Ogretmen Online Education System (C# / SQL Server / Web Services)'
