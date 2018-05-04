@@ -9,7 +9,8 @@ export const projects = {
           url: 'https:///jotform.com/build',
           title: 'JotForm - Easiest Form Builder',
           description: 'JotForm is the Easiest Form Builder with 3.6M users. I have worked so many parts in JotForm using React/Redux/Node.js/Design Patterns'
-      },
+      }
+    },
       {
         name: 'YD Software',
         list: [{
