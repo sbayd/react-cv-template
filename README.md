@@ -16,3 +16,8 @@ Sample Page
 - [Bootstrap](http://getbootstrap.com/)
 - [FontAwesome](http://fortawesome.github.io/Font-Awesome/)
 - [jQuery](http://jquery.com/)
+
+## Support on Beerpay
+Hey dude! Help me out for a couple of :beers:!
+
+[![Beerpay](https://beerpay.io/sbayd/react-cv-template/badge.svg?style=beer-square)](https://beerpay.io/sbayd/react-cv-template)  [![Beerpay](https://beerpay.io/sbayd/react-cv-template/make-wish.svg?style=flat-square)](https://beerpay.io/sbayd/react-cv-template?focus=wish)
