@@ -1,8 +1,24 @@
 export const projects = {
   sectionTitle: '',
   icon: null,
-  description: 'Projects, i have completed are listed below. To get general information about private project or not-finished projects you can get in touch.',
+  description: 'Projects, i have completed & attended are listed below. To get general information about private project or not-finished projects you can get in touch.',
   categories: [
+    {
+      name: 'JotForm',
+      list: [{
+        url: 'https:////www.jotform.com/meet-jotform-4/',
+        title: 'Easiest Online Form Builder',
+        description: 'I am a member of the development team of JotForm\'s Form Builder. I used React / Redux /  Webpack / Socket.io. This is my favorite project.'
+      }, {
+        url: 'https:////www.jotform.com/cards/',
+        title: 'JotForm Cards',
+        description: 'JotForm Cards is a next generation web form type. I used React SSR / Vanilla JS / Webpack'
+      }, {
+        url: 'https:////www.jotform.com//products//pdf-editor//',
+        title: 'PDF Editor',
+        description: 'JotForm\'s PDF Editor allows you to create automated reports for your form submissions. It also lets you create Fillable Forms (Adobe interactive forms). React / Redux / Webpack'
+      }],
+    },
     {
       name: 'YD Software',
       list: [{
