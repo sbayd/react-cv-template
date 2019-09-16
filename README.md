@@ -1,3 +1,11 @@
+# IMPORTANT
+## This project is UNMAINTAINED now
+## I have completely re-designed a more flexiable CV Template named React-CV
+
+## [VISIT  REACT-CV ON GITHUB](https://github.com/sbayd/react-cv)
+
+## [VISIT  REACT-CV ON NPM](https://www.npmjs.com/package/react-cv)
+
 A React CV Template APP with six different color schemes, just clone the repository and edit js files under src/data folder.
 
 
