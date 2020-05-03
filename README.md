@@ -18,7 +18,7 @@ After cloning repository, just
 Sample Page
 [http://sbaydin.com](http://sbaydin.com/)
 
-##Credits
+# Credits
 - [React](https://facebook.github.io/react/)
 - [Theme -  Xiaoying Riley - Orbit Theme](https://github.com/xriley/)
 - [Bootstrap](http://getbootstrap.com/)
